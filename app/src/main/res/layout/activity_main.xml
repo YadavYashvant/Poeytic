@@ -12,15 +12,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_margin="2dp"
+        android:layout_margin="1dp"
         android:text="SONNETS"
         android:fontFamily="@font/geologica_auto_bold"
-        android:textSize="25sp"
+        android:textSize="30sp"
         />
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="55dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -31,6 +31,7 @@
             android:layout_margin="10dp"
             android:fontFamily="@font/geologica_auto_regular"
             android:padding="5dp"
+            android:lineSpacingExtra="2px"
             android:text="Loading . . ."
             android:textSize="25sp"
             app:layout_constraintBottom_toBottomOf="parent"

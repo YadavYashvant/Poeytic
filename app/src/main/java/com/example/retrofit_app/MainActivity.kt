@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                 val myStringBuilder = StringBuilder()
                 for(myData in responseBody) {
                     myStringBuilder.append(myData.lines)
-                    myStringBuilder.append("\n\n\n\n")
+                    myStringBuilder.append("\n\n\n\n\n")
                 }
                 val txtmain = findViewById<TextView>(R.id.txtmain)
                 txtmain.text = myStringBuilder
